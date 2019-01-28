@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
 
 
@@ -24,168 +24,79 @@
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Team Sky Nite</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#mission">Mission</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3" href="forum">Forum</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead bg-primary text-white text-center" id="headerimg">
-    <div class="container" style="margin-top:250px;">
-      <h1 class="text-uppercase mb-0">Team Sky Nite</h1>
-      <hr>
-      <h2 class="font-weight-light mb-0">Online Gaming Community &amp; Competitive ESPORTS Team</h2>
-    </div>
-    <a class="btn btn-xl btn-outline-light" href="#" style="margin:30px;">
-            <i class="fas fa-users mr-2"></i>
-            Join our community today!
-          </a>
-  </header>
-
-  <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="mission">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Our Mission</h2>
-      <hr class="star-dark mb-5">
-      <p class="lead text-uppercase mb-4 text-center">To game together like a family and to help sponsor aspiring pro-gamers!</p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="text-center text-uppercase">About</h2>
-      <hr class="star-light mb-5">
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Team Sky Nite began as a Diablo 2 clan before venturing into MMORPGS such as Maplestory and Phantasy Star Online. First known as Superior Chaos Pirates, Team Sky Nite
-              began their venture into esports with the release of Starcraft 2 in 2010 where shortly after Team Sky Nite was formed.
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">Whether you're a casual-gamer looking to hang out on the weekends or some aspiring pro-gamer looking to win, join our forums for our like-minded gamers and check out the forums for all your gaming needs.</p>
-        </div>
-      </div>
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fas fa-users"></i>
-          Join us!
+<!-- Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://via.placeholder.com/150" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://via.placeholder.com/150" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://via.placeholder.com/150" alt="Third slide">
       </div>
     </div>
-  </section>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-
-        <!-- Three columns of text below the carousel -->
-        <section id="org">
-        <div class="container">
-                <h2 class="text-center text-uppercase">The Organization</h2>
-                <div class="row text-center">
-                  <div class="col-sm">
-                        <img class="rounded-circle" src="images/ac.png" alt="Generic placeholder image" width="140" height="140">
-                        <h4 style="margin:20px">Dj Knite X</h2>
-                        <p>Founder/President</p>
-                  </div>
-                  <div class="col-sm">
-                        <img class="rounded-circle" src="images/ro1.jpg" alt="Generic placeholder image" width="140" height="140">
-                        <h4 style="margin:20px">DjLaoAssassin</h2>
-                        <p>Vice-President/Arkansas Community Manager</p>
-                  </div>
-                  <div class="col-sm">
-                        <img class="rounded-circle" src="images/ro2.png" alt="Generic placeholder image" width="140" height="140">
-                        <h4 style="margin:20px">OssKob</h2>
-                        <p>Online Community Manager</p>
-                  </div>
-                </div>
-              </div>
-              </section>
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio bg-primary" id="games">
-        <div class="container">
-          <h2 class="text-center text-uppercase text-secondary mb-0">Our Gaming Communities &amp; Teams</h2>
-          <p class="lead text-uppercase mb-4">Here a few of the games that we play casually and compettiively</p>
-        </div>
-      </section>
-
-      <section id="org">
-            <div class="container">
-                    <div class="row text-center">
-                      <div class="col-sm">
-                            <img class="img-fluid" src="images//aov.jpg">
-                            <h3 style="margin:20px">Arena of Valor</h2>
-                            <p>Our most competitive team yet. Join us as we compete in the Valor Cup!</p>
-                      </div>
-                      <div class="col-sm">
-                            <img class="img-fluid" src="images/maplestorym.png" alt="Generic placeholder image">
-                            <h3 style="margin:20px">Maplestory M</h2>
-                            <p>Our latest addition in Mobile Gaming. Team Sky Nite has been around since the early days of Maplestory Global on the PC and now made their way into the Mobile World.</p>
-                      </div>
-                      <div class="col-sm">
-                            <img class="img-fluid" src="images/coc.png" alt="Generic placeholder image" style="height: 150px">
-                            <h3 style="margin:20px">Clash of Clans</h2>
-                            <p>The first Mobile Game that the clan decided to join the Mobile Scene. Come do Clan Wars with us! A Casual and Friendly Guild for all!</p>
-                      </div>
-                    </div>
-                  </div>
-                  </section>
-
-
-  <!-- Footer -->
-  <footer class="footer text-center" id="contact">
-    <div class="container">
+  <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">Around The World</p>
+        <div class="col-sm">
+          One of three columns
         </div>
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-youtube"></i>
-              </a>
-            </li>
-          </ul>
+        <div class="col-sm">
+          One of three columns
         </div>
-        <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">Forum</h4>
-          <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="#">
-                  <i class="fas fa-users"></i>
-                  Community Forum
-                </a>
+        <div class="col-sm">
+          One of three columns
         </div>
       </div>
     </div>
-  </footer>
+
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
